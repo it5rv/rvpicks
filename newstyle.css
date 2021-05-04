@@ -1,0 +1,111 @@
+body{
+    padding:5px;
+    background:#252525;
+}
+
+@font-face {
+    font-family:Bebas;
+    src: url("fonts/BebasNeue-Regular.ttf");
+}
+@font-face {
+    font-family:Roboto;
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+.header{
+    background:#252525;
+    color:#ff8303;
+    padding:10px;
+    border-radius:10px;
+    font-family:Bebas;
+    font-size:80px;
+}
+.header img{
+    float:left;
+    width:100%;
+    height:auto;
+}
+.navbar{
+    background:#333;
+    overflow:auto;
+    border-radius:100px;
+    border:1px solid #fff;
+}
+.navbar a{
+    color:white;
+    display:inline-block;
+    padding:20px;
+    text-align:center;
+    top:50%;
+    left:50%;
+    font-family:Bebas;
+}
+.navbar a:hover{
+    color:#ff8303;
+}
+
+.card{
+    float:left;
+    overflow:auto;
+    border: 1px solid #ff8303;
+    background:#333;
+    width:45%;
+    height:auto;
+    border-radius:10px;
+    padding:10px;
+    margin-top: 20px;
+    margin-left:15px;
+    margin-right: 15px;
+    margin-bottom:20px;
+}
+.card img{
+    float:left;
+    width:30%;
+    height:auto;
+}
+
+
+.title{
+    float:none;
+    font-family: Bebas;
+    color:#ff8303;
+    font-size: 40px;
+    padding-left:10px;
+    overflow:hidden;
+}
+.content{
+    float:none;
+    padding-left:10px;
+    overflow:auto;
+    font-family:Roboto,Sans-serif;
+    color:#fff;
+}
+
+@media only screen and (max-width:1057px){
+    .card{
+        width:89%;
+    }
+}
+
+.yt-button{
+    font-family:Bebas;
+    background:#ff8303;
+    color:#333;
+    overflow:hidden;
+    float:right;
+    padding:10px;
+    border-radius:100px;
+    margin-bottom: 10px;
+    padding-right:10px;
+}
+.watch{
+    font-family:Bebas;
+    background:#ff8303;
+    color:#333;
+    overflow:auto;
+    float:right;
+    padding:10px;
+    border-radius:100px;
+    margin-bottom: 10px;
+    padding:10px;
+}
